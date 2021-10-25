@@ -1,0 +1,11 @@
+syntax = "proto3";
+package evanforbes.rollup.rollup;
+
+// this line is used by starport scaffolding # genesis/proto/import
+
+option go_package = "github.com/evan-forbes/rollup/x/rollup/types";
+
+// GenesisState defines the rollup module's genesis state.
+message GenesisState {
+    // this line is used by starport scaffolding # genesis/proto/state
+}
